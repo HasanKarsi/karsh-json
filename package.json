@@ -1,0 +1,31 @@
+{
+  "name": "karsh-json",
+  "version": "0.1.0",
+  "description": "Hatayı satır, sütun ve nedeniyle söyleyen JSON ayrıştırıcı; onarım, yazıcı, sır tarama ve n8n workflow analizi · A JSON parser that says what is wrong, where and why, plus repair, printing, secret scanning and n8n workflow analysis",
+  "license": "MIT",
+  "author": "Hasan Karşı / KARSH",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "json",
+    "json-parser",
+    "json-repair",
+    "json5",
+    "formatter",
+    "pretty-print",
+    "secret-scanning",
+    "n8n",
+    "workflow",
+    "typescript"
+  ]
+}
