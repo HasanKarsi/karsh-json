@@ -6,10 +6,10 @@
  * only needs the parser should not pull in the workflow reader to get it.
  */
 
-export * from "./parse";
-export * from "./repair";
-export * from "./print";
-export * from "./secrets";
-export * from "./n8n";
-export * from "./decode";
-export * from "./check";
+export * from "./parse.js";
+export * from "./repair.js";
+export * from "./print.js";
+export * from "./secrets.js";
+export * from "./n8n.js";
+export * from "./decode.js";
+export * from "./check.js";

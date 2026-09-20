@@ -6,7 +6,7 @@
  * object members. Iterative for the same reason the parser is.
  */
 
-import type { JsonMember, JsonNode } from "./parse";
+import type { JsonMember, JsonNode } from "./parse.js";
 
 export interface PrintOptions {
   /** Two spaces, four spaces or a tab; `null` for no whitespace at all. */

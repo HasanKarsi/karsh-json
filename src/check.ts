@@ -5,9 +5,9 @@
  * outside a browser.
  */
 
-import { analyseN8n, mightBeN8n, type N8nReport } from "./n8n";
-import { countLines, parseJson, utf8Length, type JsonError, type ParseResult } from "./parse";
-import { repairJson, type RepairResult } from "./repair";
+import { analyseN8n, mightBeN8n, type N8nReport } from "./n8n.js";
+import { countLines, parseJson, utf8Length, type JsonError, type ParseResult } from "./parse.js";
+import { repairJson, type RepairResult } from "./repair.js";
 
 export interface Checked {
   text: string;

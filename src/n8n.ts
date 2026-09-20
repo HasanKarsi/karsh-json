@@ -15,8 +15,8 @@
  * execution data, and the instance id are what the sanitised copy removes.
  */
 
-import { formatPath, type JsonNode } from "./parse";
-import { redact, scanString, type SecretKind } from "./secrets";
+import { formatPath, type JsonNode } from "./parse.js";
+import { redact, scanString, type SecretKind } from "./secrets.js";
 
 export type TriggerKind = "webhook" | "schedule" | "cron" | "manual" | "other";
 
