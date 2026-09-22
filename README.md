@@ -44,7 +44,7 @@ Paket derlenmiş dosya taşımaz; TypeScript kaynağı olduğu gibi yayımlanır
 (`exports` doğrudan `src/index.ts`'i gösterir). Build adımı yoktur.
 
 ```bash
-npm i github:<kullanıcı>/karsh-json
+npm i github:HasanKarsi/karsh-json
 ```
 
 Node 18 ve üzeri (`atob` ve `structuredClone` için), ya da herhangi bir
@@ -225,7 +225,7 @@ No build step and no compiled files: the package ships TypeScript source and
 `exports` points straight at `src/index.ts`.
 
 ```bash
-npm i github:<user>/karsh-json
+npm i github:HasanKarsi/karsh-json
 ```
 
 Node 18 or newer (for `atob` and `structuredClone`), or any browser.
